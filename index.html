@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Car Company Survey</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">A survey form interface</p>
+            <hr style="box-shadow: 0px 2px 8px grey;">
+        </div>
+        <div class="survey">
+            <form id="survey-form" action="">
+                <div class="name-div">
+                    <label id="name-label" for="name">Name</label>
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </div>
+                </div>
+                <div class="email-div">
+                    <label id="email-label" for="email">Email</label>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Enter you email" required>
+                    </div>
+                </div>
+                <div class="number-div">
+                    <label id="number-label" for="number">Age</label>
+                    <div>
+                        <input type="number" name="number" id="number" min="12" max="100" placeholder="Age">
+                    </div>
+                </div>
+                <div class="status-div">
+                    <label for="status">Your current status</label>
+                    <div>
+                        <select name="status" id="dropdown">
+                        <option label="Single" value="Single"></option>
+                        <option label="Taken" value="Taken"></option>
+                        <option label="Married" value="Married"></option>
+                        <option label="Divorced" value="Divorced"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="gender-div">
+                    Gender
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="Male">
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="Female">
+                    </div>
+                    <div>
+                        <label for="other">Other<label>
+                        <input type="radio" name="gender" id="other" value="Other">
+                    </div>
+                </div>
+                <div class="car-div">
+                    Car Preference
+                    <div>
+                        <label for="sedan">Sedan</label>
+                        <input type="checkbox" name="car" id="sedan" value="Sedan">
+                    </div>
+                    <div>
+                        <label for="suv">SUV</label>
+                        <input type="checkbox" name="car" id="suv" value="SUV">
+                    </div>
+                    <div>
+                        <label for="classic">Classic</label>
+                        <input type="checkbox" name="car" id="classic" value="Classic">
+                    </div>
+                    <div>
+                        <label for="sport">Sport</label>
+                        <input type="checkbox" name="car" id="sport" value="Sport">
+                    </div>
+                    <div>
+                        <label for="heavywight">Heavy Weight</label>
+                        <input type="checkbox" name="car" id="heavyweight" value="Heavyweight">
+                    </div>
+                </div>
+                <div class="text-div">
+                    <label for="bio">Bio</label>
+                    <div>
+                        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write your bio here if you will (not required)"></textarea>
+                    </div>
+                </div>
+                <div class="button-div">
+                    <button type="reset" id="reset">Reset</button>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<!--
+<footer>
+    <div class="copyright-div">
+        <p>&copy 2021 vanTrant</p>
+    </div>
+</footer>
+-->
+</html>
