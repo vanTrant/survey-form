@@ -21,7 +21,7 @@ I create this in order to complete Responsive Web Design Challenge from [freecod
 ## Version History
 
 * 1.2
-    *Improve responsiveness
+    * Improve responsiveness
 * 1.1
     * Add more styles
 * 1.0
